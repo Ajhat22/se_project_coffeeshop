@@ -6,16 +6,26 @@
   line-height: 20px;
   font-family: "Inter", Arial, sans-serif;
 }
-.content{
-
-
+.nav{
+display: flex;
+justify-content: space-between;
+align-content: ;
+}
+.nav__logo {
+  position: relative;
 }
 
+.content {
+}
 
-.recipies{}
+.recipies {
+}
 
-.reservation{}
+.reservation {
+}
 
-.menu{}
+.menu {
+}
 
-.about{}
+.about {
+}
