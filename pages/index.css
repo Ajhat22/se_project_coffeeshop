@@ -99,27 +99,43 @@
   background-image: url(../images/background_recipes.svg);
   background-color: #0a2750;
   color: #ffffff;
-  box-sizing: border-box;
-  position: relative;
   background-size: cover;
+  padding: 100px 80px 215px;
 }
 
 .recipies__title {
-  margin: 0 80px 215px;
-  padding-top: 100px;
+  margin: 0 0 24px;
+  max-width: 580px;
+  font-family: "Inter", "Ariail", serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .recipies__subtitle {
-  margin: 0;
+  margin: 0 0 80;
+  max-width: 438px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .recipies__videos {
   display: flex;
   justify-content: center;
-
   gap: 100px;
+  width: 273px;
+  height: 480px;
+  list-style: none;
 }
-
+.recipies__videos-captions {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
 .reservation {
 }
 
