@@ -113,11 +113,12 @@
 }
 
 .recipies__subtitle {
-  margin: 3px 20px 80px;
+  margin: 0;
   max-width: 438px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  padding: 3px 20px 80px;
 }
 
 .recipies__videos {
