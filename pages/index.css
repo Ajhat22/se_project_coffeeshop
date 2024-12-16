@@ -50,7 +50,7 @@
 .header__title {
   max-width: 729px;
   height: 80px;
-  margin: 183px 0 0;
+  margin: 183px 0 28px;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 60px;
@@ -84,14 +84,13 @@
   margin-top: auto;
   align-content: baseline;
 }
-.headder__paragraph {
+.header__paragraph {
   margin: 0;
   font-family: "Inter", "Arial", serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
-  
 }
 .content {
 }
@@ -125,10 +124,13 @@
 .recipies__videos {
   display: flex;
   justify-content: center;
-  gap: 100px;
-  width: 273px;
-  height: 480px;
+  gap: 50px;
+
   list-style: none;
+}
+.recipies__videospecs {
+  width: 480px;
+  height: 273px;
 }
 .recipies__videos-captions {
   display: flex;
