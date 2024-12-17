@@ -103,6 +103,7 @@
   color: #ffffff;
   background-size: cover;
   padding: 100px 80px 215px;
+  display: block;
 }
 
 .recipies__title {
