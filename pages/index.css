@@ -92,6 +92,9 @@
   line-height: 20px;
   color: #6f6f6f;
 }
+.header__footer:last-child {
+  align-items: end;
+}
 .content {
 }
 
