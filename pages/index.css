@@ -136,7 +136,7 @@
   width: 480px;
   height: 273px;
 }
-.recipies__videos-captions {
+.recipes__subtitle {
   display: flex;
   justify-content: space-between;
   font-family: "Inter", "Arial", serif;
