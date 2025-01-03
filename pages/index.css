@@ -145,6 +145,14 @@
   line-height: 30px;
 }
 .reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+}
+.reservation__form-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu {
