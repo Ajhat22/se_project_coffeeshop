@@ -111,24 +111,61 @@
         </section>
         <section class="reservation" id="bookatable-id">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="reservation__form form">
+          <form action="" class="reservation__form ">
             <fieldset class="reservation__form reservation__fieldset">
-              <label for="Name">
-                <input type="text" />
+              <label for="Name-input">
+                Name*
+                <input
+                  type="text"
+                  required
+                  placeholder="Name Surname"
+                  id="Name-input"
+                  class="form__input"
+                />
               </label>
-              <label for="number of guests">
-                <input type="text" />
+              <label for="number-of-guests-input">
+                Number of guests*
+                <input
+                  required
+                  type="text"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  id="number-of-guests-input"
+                  class="form__input"
+                />
               </label>
-              <label for="date and time?">
-                <input type="datetime-local" />
+              <label for="date-and-time-input">
+                date and time *
+                <input
+                  required
+                  type="datetime-local"
+                  for="date-and-time-input"
+                  class="form__input"
+                />
               </label>
-              <label for="email">
-                <input type="email" />
+              <label for="email-input">
+                your email*
+                <input
+                  required
+                  type="email"
+                  placeholder="email@email.com"
+                  id="email-input"
+                  class="form__input"
+                />
               </label>
             </fieldset>
             <button type="submit" class="form__button">Book a table</button>
-              <input type="checkbox" name="I agree with terms and services."
-              id="I agree with terms and services."
+            <label for="checkbox">
+              <input
+                required
+                type="checkbox"
+                name="I agree with terms of use."
+                id="checkbox"
+                class="form__checkbox form__checkbox_type_label"
+              />
+              I agree with terms of use.
+            </label>
           </form>
         </section>
         <section class="menu" id="menu-id"></section>
