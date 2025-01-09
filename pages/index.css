@@ -195,7 +195,8 @@
   line-height: 20px;
 }
 .reservation__form_button:hover {
-  transition: ease-in 3s #1878dc;
+  background-color: #1878DC
+  transition: ease-in 3s;
 }
 .reservation__form_checkbox {
   border-radius: 2px;
