@@ -111,7 +111,7 @@
         </section>
         <section class="reservation" id="bookatable-id">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="reservation__form ">
+          <form action="/action_page.php" class="reservation__form">
             <fieldset class="reservation__form reservation__fieldset">
               <label for="Name-input">
                 Name*
@@ -120,7 +120,7 @@
                   required
                   placeholder="Name Surname"
                   id="Name-input"
-                  class="form__input"
+                  class="reservation__form_text-box"
                 />
               </label>
               <label for="number-of-guests-input">
@@ -129,10 +129,8 @@
                   required
                   type="text"
                   placeholder="1-8"
-                  min="1"
-                  max="8"
                   id="number-of-guests-input"
-                  class="form__input"
+                  class="reservation__form_text-box"
                 />
               </label>
               <label for="date-and-time-input">
@@ -141,7 +139,7 @@
                   required
                   type="datetime-local"
                   for="date-and-time-input"
-                  class="form__input"
+                  class="reservation__form_text-box"
                 />
               </label>
               <label for="email-input">
@@ -151,18 +149,20 @@
                   type="email"
                   placeholder="email@email.com"
                   id="email-input"
-                  class="form__input"
+                  class="reservation__form_text-box"
                 />
               </label>
             </fieldset>
-            <button type="submit" class="form__button">Book a table</button>
+            <button type="submit" class="reservation__form_button">
+              Book a table
+            </button>
             <label for="checkbox">
               <input
                 required
                 type="checkbox"
                 name="I agree with terms of use."
                 id="checkbox"
-                class="form__checkbox form__checkbox_type_label"
+                class="reservation__form_checkbox reservation__form_checkbox_type_label"
               />
               I agree with terms of use.
             </label>
