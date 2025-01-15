@@ -203,7 +203,7 @@
   width: 20px;
   height: 20px;
 }
-.reservation__form_checkbox_type_label {
+.reservation__form_checkbox_type-label {
   display: flex;
   gap: 20px;
   justify-content: center;
