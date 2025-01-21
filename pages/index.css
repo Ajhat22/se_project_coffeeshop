@@ -150,6 +150,7 @@
   display: block;
   padding: 100px 0 120px;
 }
+
 .reservation__title {
   margin: 0 0 80px;
   text-align: center;
@@ -158,13 +159,17 @@
   font-size: 44px;
   line-height: 52px;
 }
-.reservation__form {
+.form{
   height: 100%;
-  margin: 0 auto;
   max-width: 385px;
 }
+.reservation__form {
+
+  margin: 0 auto;
+
+}
 .reservation__fieldset {
-  max-width: 385px;
+  
   margin: 0;
   padding: 0;
   border: none;
