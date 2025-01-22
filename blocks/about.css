@@ -1,2 +1,20 @@
 .about {
+  background-color: #0a2850;
+  color: #fff;
+  padding: 100px 80px 173px;
+  display: flex;
+  justify-content: space-between;
+}
+.about__title {
+  max-width: 251px;
+  margin: 0;
+}
+.about__content {
+  max-width: 660px;
+}
+.about__paragraph {
+  margin: 19px 0 0;
+  align-items: center;
+}
+.about__circle {
 }
