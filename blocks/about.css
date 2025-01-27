@@ -28,7 +28,7 @@
   font-size: 20px;
   line-height: 30px;
 }
-.about__paragraph:last-child {
+.about__paragraph :last-child {
   padding-bottom: 0;
 }
 .about__circle {
@@ -48,7 +48,7 @@
   position: absolute;
   top: -140px;
   left: -100px;
-  animation: pulse 1.3s ease-in-out;
+  animation: pulse 1.3s ease-in-out infinite;
 }
 
 @keyframes pulse {
