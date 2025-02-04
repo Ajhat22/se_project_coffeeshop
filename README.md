@@ -13,5 +13,6 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :) 
-ima build ti out then add some funny memes i think it will prighten up the place a little more.
+Add your ideas here :)
+Personally i would add images of some of th foods and some of the other foods and such.
+personality i would add a mascott aswell more for branding.
