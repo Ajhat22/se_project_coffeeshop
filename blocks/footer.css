@@ -35,10 +35,12 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  left: 0dvb;
+  left: -50px;
+  transition: ease-in 1.5s #1878dc;
 }
 .footer__social-link:hover {
-  transition: ease-in 0.5s #1878dc;
+  opacity: 70%;
+  cursor: pointer;
 }
 .footer__social-icon {
   width: 16px;
