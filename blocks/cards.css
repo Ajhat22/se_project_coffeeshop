@@ -1,16 +1,18 @@
 .cards {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   margin: 0;
   width: 540px;
 }
-.cards__title {
+.card__title {
   font-family: "Inter", "Arial", serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 32px;
+  justify-content: flex-start;
 }
 
 .card__list {
@@ -18,23 +20,27 @@
   margin: 0;
   padding: 0;
 }
-.cards__list-item {
+.card__list-item {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 16px;
   line-height: 20px;
-  gap: 16px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   margin-bottom: 16px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__list-item:last-child {
   margin-bottom: 0;
+ 
 }
 
 .card__list-divider {
   text-decoration: underline;
-  flex-grow: 2;
+  flex-grow: 3;
   border-bottom: 1px solid #000;
   width: 100%;
+  min-width: 200px;
 }
