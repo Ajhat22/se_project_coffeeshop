@@ -3,7 +3,6 @@
   color: #fff;
   font-family: Arial, sans-serif;
   padding: 60px 80px;
-  margin: 0;
 }
 .footer__content {
   display: flex;
@@ -12,11 +11,9 @@
 .footer__logo {
   width: 105px;
   height: 59px;
-  padding-left: 80px;
 }
 .footer__column {
   margin: 0 0 20px;
-  padding-right: 80px;
 }
 .footer__list {
   margin: 0;
@@ -54,5 +51,4 @@
   font-family: "Inter", "Arial", serif;
   font-size: 16px;
   line-height: 20px;
-  padding-left: 80px;
 }
