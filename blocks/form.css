@@ -1,6 +1,8 @@
 .form {
   height: 100%;
   max-width: 385px;
+  margin: 0 auto;
+  border: none;
 }
 
 .form__fieldset {
