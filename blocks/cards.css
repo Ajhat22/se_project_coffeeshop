@@ -2,7 +2,7 @@
   width: 540px;
 }
 .card__title {
-  font-family: "Inter","Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -13,7 +13,7 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  flex-direction:column;
+  flex-direction: column;
 }
 
 .card__list-item {
@@ -26,6 +26,7 @@
   margin-bottom: 16px;
   white-space: nowrap;
   overflow: hidden;
+  gap: 10px;
 }
 
 .card__list-item:last-child {
